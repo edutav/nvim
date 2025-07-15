@@ -22,6 +22,5 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.svelte" },
 
-  { import = "astrocommunity.colorscheme.nord-nvim" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
 }
