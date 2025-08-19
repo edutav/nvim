@@ -11,16 +11,19 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.toml" }, 
-  
+
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.docker" },
 
-  { import = "astrocommunity.pack.eslint" },
+  -- { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.typescript" },  
-  { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.svelte" },
+  -- { import = "astrocommunity.pack.typescript" },  
+  -- { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.svelte" },
 
-  { import = "astrocommunity.colorscheme.vscode-nvim" },
+  -- { import = "astrocommunity.colorscheme.vscode-nvim" },
+
+  { import = "astrocommunity.completion.copilot-vim" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
 }
